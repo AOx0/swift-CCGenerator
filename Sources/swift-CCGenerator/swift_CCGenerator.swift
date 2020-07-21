@@ -62,7 +62,7 @@ fileprivate struct Codigo {
     var digitos : String?
 }
 
-struct CC {
+public struct CC {
     fileprivate var digitos = NumeroIdentificacion()
     fileprivate var fecha = Fecha()
     fileprivate var cvv = Codigo()
