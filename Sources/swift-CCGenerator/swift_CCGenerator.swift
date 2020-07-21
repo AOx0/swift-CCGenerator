@@ -286,7 +286,7 @@ extension Generador {
 //MARK: - Generador.Configuración
 
 extension Generador {
-    struct Configuracion {
+    public struct Configuracion {
         private init() { return }
     }
 }
@@ -317,7 +317,7 @@ fileprivate func resetValor<T>(_ valor : inout T?) {
 
 extension Generador.Configuracion {
     
-    public class Mes {
+    final public class Mes {
         fileprivate static var value : Valor = .random
         static var valor : String? {
             didSet {
@@ -331,7 +331,7 @@ extension Generador.Configuracion {
 
 extension Generador.Configuracion {
     
-    public class Año {
+    final public class Año {
         fileprivate static var value : Valor = .random
         static var valor : String? {
             didSet {
@@ -345,7 +345,7 @@ extension Generador.Configuracion {
 
 extension Generador.Configuracion {
     
-    public class CVV {
+    final public class CVV {
         fileprivate static var value : Valor = .random
         static var valor : String? {
             didSet {
@@ -359,7 +359,7 @@ extension Generador.Configuracion {
 
 extension Generador.Configuracion {
     
-    public class LongitudDeCC {
+    final public class LongitudDeCC {
         public static var autoCorregirLongitud = false
         fileprivate static var lenght :  ValorTamaño = .random
         static var tamaño : Int? {
