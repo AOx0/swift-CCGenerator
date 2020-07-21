@@ -77,15 +77,15 @@ public struct CC {
     fileprivate var codigo =  ""
     
     
-    func formatoChecker() -> String {
+    public func formatoChecker() -> String {
         return "\(digitosDeTarjeta)|\(mes)|\(año)|\(codigo)"
     }
     
-    func formatoCSV() -> String {
+    public func formatoCSV() -> String {
         return "\(digitosDeTarjeta),\(codigo),\(mes)/\(año)"
     }
     
-    func formatoXML() -> String {
+    public func formatoXML() -> String {
         return String(
             "<xml>\n" +
             "<CreditCard>\n" +
@@ -97,7 +97,7 @@ public struct CC {
         )
     }
     
-    func formatoJSON() -> String {
+    public func formatoJSON() -> String {
         return String(
             "{\n" +
             "\"CreditCard\":{\n" +
@@ -319,7 +319,7 @@ extension Generador.Configuracion {
     
     final public class Mes {
         fileprivate static var value : Valor = .random
-        static var valor : String? {
+        public static var valor : String? {
             didSet {
                 if valor != nil {} else { resetValor(&valor);return }
                 self.value = Valor.personalizado(self.valor!)
@@ -333,7 +333,7 @@ extension Generador.Configuracion {
     
     final public class Año {
         fileprivate static var value : Valor = .random
-        static var valor : String? {
+        public static var valor : String? {
             didSet {
                 if valor != nil {} else { resetValor(&valor);return }
                 self.value = Valor.personalizado(self.valor!)
@@ -347,7 +347,7 @@ extension Generador.Configuracion {
     
     final public class CVV {
         fileprivate static var value : Valor = .random
-        static var valor : String? {
+        public static var valor : String? {
             didSet {
                 if valor != nil {} else { resetValor(&valor);return }
                 self.value = Valor.personalizado(self.valor!)
@@ -362,7 +362,7 @@ extension Generador.Configuracion {
     final public class LongitudDeCC {
         public static var autoCorregirLongitud = false
         fileprivate static var lenght :  ValorTamaño = .random
-        static var tamaño : Int? {
+        public static var tamaño : Int? {
             didSet {
                 guard tamaño != nil else { return }
                 if (tamaño! > 11 && tamaño! < 20) {} else { resetValor(&tamaño);return }
