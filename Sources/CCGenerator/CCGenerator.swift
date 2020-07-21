@@ -1,9 +1,8 @@
 //
 //  Generador.swift
-//  swift-ccg2
 //
-//  Created by Alejandro D on 18/07/20.
-//  Copyright © 2020 Alejandro D. All rights reserved.
+//  Created by AOx0 on 18/07/20.
+//  Copyright © 2020 AOx0. All rights reserved.
 //
 
 import Foundation

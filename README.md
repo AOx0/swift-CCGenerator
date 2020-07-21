@@ -2,13 +2,13 @@
 
 Made for my programming and swift package managing skills practice and education purposes only. I'm not making responsible of any bad use of this code in any project. Programmed in Spanish.
 
-The main code is located at Sources / [swift-CCGenerator](https://github.com/AOx0/swift-CCGenerator/tree/master/Sources/swift-CCGenerator) 
+The main code is located at Sources / CCGenerator / [CCGenerator](https://github.com/AOx0/swift-CCGenerator/tree/master/Sources/CCGenerator/CCGenerator) 
 
 
 
 ## Usage
 
-1. First set any custom configurations accessing to the indexed classes in `Generator.Configuracion`. More info at **[Configuration](https://github.com/AOx0/swift-CCGenerator#configuration)**
+1. First set any custom configurations accessing to the indexed classes in `Generator.Configuracion`. More info at **[Configuration](https://github.com/AOx0/CCGenerator#configuration)**
 2. Use the `Generador.generarCC(bin: String)` method. It returns a CC object which has various methods to print itself in various formats.
 
 
