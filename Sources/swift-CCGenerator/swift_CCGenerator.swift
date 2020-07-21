@@ -209,7 +209,7 @@ struct CC {
 
 //MARK: - Generador
 
-struct Generador {
+public struct Generador {
     private init() { return }
 }
 
