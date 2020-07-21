@@ -8,7 +8,7 @@ The main code is located at Sources / CCGenerator / [CCGenerator](https://github
 
 ## Usage
 
-1. First set any custom configurations accessing to the indexed classes in `Generator.Configuracion`. More info at **[Configuration](https://github.com/AOx0/CCGenerator#configuration)**
+1. First set any custom configurations accessing to the indexed classes in `Generator.Configuracion`. More info at **[Configuration](https://github.com/AOx0/CCGenerator#swift-CCGenerator)**
 2. Use the `Generador.generarCC(bin: String)` method. It returns a CC object which has various methods to print itself in various formats.
 
 
@@ -16,7 +16,7 @@ The main code is located at Sources / CCGenerator / [CCGenerator](https://github
 Example:
 
 ```swift
-import swift_CCGenerator
+import CCGenerator
 
 //Configuration
 Generador.Configuracion.Año.valor = "2024"
