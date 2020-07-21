@@ -2,7 +2,7 @@
 
 Made for my programming and swift package managing skills practice and education purposes only. I'm not making responsible of any bad use of this code in any project. Programmed in Spanish.
 
-The main code is located at Sources / CCGenerator / [CCGenerator](https://github.com/AOx0/swift-CCGenerator/tree/master/Sources/CCGenerator/CCGenerator) 
+The main code is located at Sources / CCGenerator / [CCGenerator](https://github.com/AOx0/swift-CCGenerator/tree/master/Sources/CCGenerator/CCGenerator.swift) 
 
 
 
