@@ -1,10 +1,9 @@
 # swift-CCGenerator
 
-Made for my programming and swift package managing skills practice and education purposes only. I'm not making responsible of any bad use of this code in any project. Programmed in Spanish.
+Only made for education purposes. I'm not making responsible for any bad use of this software provided as is.
+Made this to increase my programming and swift package managing skills. Programmed in Spanish.
 
 The main code is located at Sources / CCGenerator / [CCGenerator](https://github.com/AOx0/swift-CCGenerator/tree/master/Sources/CCGenerator/CCGenerator.swift) 
-
-
 
 ## Usage
 
@@ -27,8 +26,6 @@ print(Generador.generarCC(bin: "123456").formatoChecker()) //1234564051139615830
 
 ```
 
-
-
 ## Configuration
 
 Available configurations:
@@ -38,8 +35,6 @@ Available configurations:
 3. `Generador.Configuracion.CVV.valor` **: String** - Custom CVV for the CC -  `Default: Random (nil) `
 4. `Generador.Configuracion.LongitudDeCC.tamaño` **: Int** - Custom CC lenght [12 to 19] -  `Default: 16 `
 5. `Generador.Configuracion.LongitudDeCC.autoCorregirLongitud` **: Bool** - Autorrects the Bin's lenght if its disabled - `Default: false `
-
-
 
 ## Generated CC output formats:
 
